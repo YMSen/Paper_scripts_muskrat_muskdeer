@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+bash /home/liyan/software/juicer/juicer-master/CPU/juicer.sh -g sheshu -S early -s MboI -p /data/LiYan/Diyan/00.genome/Ozib/Ozib.chr.sizes -y /data/LiYan/Diyan/00.genome/Ozib/Panda_MboI.txt -z /data/LiYan/Diyan/00.genome/Ozib/Ozib.masked.fasta -D /home/liyan/software/juicer/juicer-master/ -t 20
+bash /home/liyan/software/juicer/juicer-master/CPU/juicer.sh -g sheshu -S final -s MboI -p /data/LiYan/Diyan/00.genome/Ozib/Ozib.chr.sizes -y /data/LiYan/Diyan/00.genome/Ozib/Panda_MboI.txt -z /data/LiYan/Diyan/00.genome/Ozib/Ozib.masked.fasta -D /home/liyan/software/juicer/juicer-master/ -t 20

@@ -1,0 +1,23 @@
+# path of a net files
+>netdir
+./chainNet
+
+# path of a chain files
+>chaindir
+./chainNet
+# species-name tag1 tag2
+>species
+Rsin 0 1
+Raff 1 1
+Rpea 1 1
+Rfer 1 1
+Harm 2 1
+Hpra 2 1
+Mlyr 2 1
+Raeg 2 1
+Csph 2 1
+horse 2 1
+
+# block resolution (bp): DO NOT CHANGE
+>resolution
+<resolutionwillbechanged>

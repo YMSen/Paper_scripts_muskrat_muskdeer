@@ -1,0 +1,74 @@
+# Instruction: 
+# This list of fossil calibration times is manually created for Mammaliaian.
+# If divergence time for other types of species are estimated, more fossil 
+# calibration times should be added to this list.
+#
+# By Wang Zhuo, wangzhuo@genomics.org.cn
+# Last change: 2010-09-28
+
+# Description of columns:
+#   Node ID<tab>Taxon1<tab>Taxon2<tab>Divergence time<tab>CI(max-min);
+# missed values should be filled with ".";
+# If more than one calibration times are assign to same divergence point,
+# the first calibration time will be used in pipeline.
+
+# For: Placental Mammalian; 
+# From:  Springer MS, et. al., PNAS 100:1056-1061. (2003);
+#   Mark S. Springer, William J. Murphy, etc. Placental Mammalia 
+#   diversifiFelis catusion and the Cretaceous-Tertiary boundary.
+#   Proc. Natl. Acad. Sci. USA. 100:1056-1061. (2003)
+# Added by: Wang Zhuo, wangzhuo@genomics.org.cn, 2010-09-21
+80	Dasypodidae	Myrmecophagidae	.	.-60
+59	Feliformia	Caniformia	.	63-50
+62	Equidae	Tapiridae	.	58-54
+65	Hippopotamidae	Cetacea	.	.-52
+68	Cetacea	Tylopoda	.	65-.
+43	Proboscidea	Sirenia	.	65-54
+54	Mus musculus	Rattus	.	.-12
+71	Pteropodidae	Megadermatidae	.	60-43
+75	Soricidae	Erinaceidae	.	.-63
+
+
+# From: Benton MJ and Donoghue PCJ. Mol. Biol. Evol. 24:26-53. (2007);
+#   Benton MJ and Donoghue PCJ. Paleontological Evidence to Date 
+#   the Tree of life. Mol. Biol. Evol. 24:26-53. (2007);
+# Added by: Guang Xuanmin, guangxuanmin@genomics.org.cn, 2010-09-28
+1	Homo sapiens	Pan troglodytes	.	10-6.5
+1	Homo sapiens	Macaca	.	33.9-23
+1	Mus musculus	Rattus	.	12.3-11
+1	Oryctolagus cuniculus	Mus musculus	.	100.5-61.5
+1	Homo sapiens	Mus musculus	.	100.5-61.5
+1	Canis lupus familiaris	Felis catus	.	63.8-42.8
+1	Canis lupus familiaris	Equus caballus	.	71.2-62.3
+1	Bos taurus	Ovis aries	.	28.5-18.3
+1	Bos taurus	Sus scrofa	.	53.5-48.3
+#1	Bos taurus	Canis lupus familiaris	.	113-95.3
+1	Homo sapiens	Bos taurus	.	113-95.3
+1	Homo sapiens	Dasypodidae	.	113-95.3
+1	Tenrec	Elephantidae	.	113-48.4
+1	Homo sapiens	Tenrec	.	113-95.3
+1	Didelphidae	Macropus sp.	.	71.2-61.5
+1	Homo sapiens	Didelphidae	.	138.4-124.6
+1	Homo sapiens	Ornithorhynchus anatinus	.	191.1-162.5
+1	Gallus gallus	Danio rerio	.	86.5-66
+1	Dromaius novaehollandiae	Gallus gallus	.	86.5-66
+1	Aves	Crocodylidae	.	250.4-235
+1	Crocodylidae	Lepidosauria	.	299.8-259.7
+1	Mammalia	Aves	.	330.4-312.3
+1	Homo sapiens	Anura	.	350.1-330.4
+
+# From: http://www.fossilrecord.net/dateaclade/index.html
+# Added by Wang Zhuo, wangzhuo@genomics.org.cn, 2010-09-30
+1	Drosophila	Echinodermata	.	581-531.5
+1	Caenorhabditis elegans	Drosophila	.	581-520.5
+1	Apis mellifera	Drosophila	.	307.2-238.5
+1	Culicidae	Drosophila	.	295.4-238.5
+1	Echinoidea	Aves	.	581-518.5
+1	Danio rerio	Aves	.	421.75-416
+1	Anura	Aves	.	350.1-330.4
+1	Tetraodon	Danio rerio	.	165.2-149.85
+1	Oryzias latipes	Tetraodon	.	150.9-96.9
+1	Spinachia spinachia	Tetraodon	.	150.9-96.9
+1	Takifugu niphobles	Tetraodon	.	56.0-32.25
+
+

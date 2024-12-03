@@ -1,0 +1,33 @@
+[client]
+port        = <PORT>
+socket      = mysql.sock
+
+[mysqld]
+datadir     = data
+port        = <PORT>
+socket      = mysql.sock
+max_connections  = 100
+max_tmp_tables   = 256
+table_open_cache = 256
+thread_cache_size= 1000
+query_cache_size = 64M
+query_cache_type = 1
+query_cache_limit= 1048576
+tmpdir           = <PREFIX>/tmp
+slave-load-tmpdir= <PREFIX>/tmp
+
+
+
+[mysqld_safe]
+datadir     = <PREFIX>/data
+basedir     = <PREFIX>
+err-log     = mysqld.log
+pid-file    = mysqld.pid
+tmpdir      = <PREFIX>/tmp
+slave-load-tmpdir = <PREFIX>/tmp
+
+
+[mysql_install_db]
+datadir     = <PREFIX>/data
+basedir     = <PREFIX>
+

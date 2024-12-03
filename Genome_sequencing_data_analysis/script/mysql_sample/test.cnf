@@ -1,0 +1,19 @@
+[client]
+port        = 51314
+socket      = mysql.sock
+
+[mysqld]
+datadir     = data
+port        = 51314
+socket      = mysql.sock
+
+[mysqld_safe]
+datadir     = /BJPROJ/GR/DENOVO/USER/leiyang/bio/pipeline/mysql_sample/data
+basedir     = /BJPROJ/GR/DENOVO/USER/leiyang/bio/pipeline/mysql_sample
+err-log     = mysqld.log
+pid-file    = mysqld.pid
+
+[mysql_install_db]
+datadir     = /BJPROJ/GR/DENOVO/USER/leiyang/bio/pipeline/mysql_sample/data
+basedir     = /BJPROJ/GR/DENOVO/USER/leiyang/bio/pipeline/mysql_sample
+

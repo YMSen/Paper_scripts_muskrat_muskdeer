@@ -1,0 +1,178 @@
+# This list is manually created according to information on http://www.timetree.org/book.php
+# By: Wang Zhuo, wangzhuo@genomics.org.cn
+# Last change: 2010-09-12
+
+# Description of columns:
+#   ID<tab>Taxon1<tab>Taxon2<tab>Divergence time<tab>CI(max-min);
+# Description of # lines:
+#   #: instruction or uncertained specy names;
+#   #*: multi-furcated nodes;
+
+# From:  Placental mammals Eutheria, Murphy2009Chap71.pdf;
+1	Xenarthra	Primates	104.7	115-96
+2	Sirenia	Xenarthra	103.3	114-95
+3	Euarchontoglires	Laurasiatheria	97.4	106-90
+4	Primates	Rodentia	91.0	99-84
+5	Primates	Scandentia	89.1	97-82
+#6	Eulipotyphla	Carnivora	87.2	93-82
+7	Rodentia	Lagomorpha	86.4	94-80
+8	Primates	Dermoptera	86.2	98-71
+9	Cetartiodactyla	Carnivora	84.6	90-80
+10	Chiroptera	Carnivora	84.2	89-79
+11	Perissodactyla	Carnivora	82.5	87-78
+12	Pholidota	Carnivora	79.8	85-75
+13	Macroscelidea	Sirenia	77.8	86-70
+14	Macroscelidea	Tubulidentata	75.1	83-67
+#15	Macroscelidea	Afrosoricida	73.0	81-65
+16	Sirenia	Proboscidea	64.2	73-56
+17	Hyracoidea	Proboscidea	61.1	70-53
+
+# From: Primates, Steiper2009Chap74.pdf
+1	Strepsirrhini	Haplorrhini	77.5	93-66
+2	Tarsiidae	Catarrhini	71.1
+3	Lemuriformes	Galagidae	61.9	75-48
+4	Lemuriformes	Daubentoniidae	52.2	
+5	Platyrrhini	Catarrhini	44.2	50-37
+#*6	Indriidae	Lemuridae	37.1	51-32
+#7	Loridae	Galagonidae	34.2	
+8	Hominoidea	Cercopithecidae	29.6	36-26
+#*9	Cebidae	Atelidae	21.4
+10	Hominidae	Hylobatidae	18.8	23-14
+
+# From: Rodents_Honeycutt2009Chap76.pdf
+1	Muridae	Gliridae	92.9	105-85
+2	Muridae	Caviidae	82.8	106-77
+3	Muridae	Castoridae	78.9	101-68
+4	Muridae	Anomaluridae	76.0	101-65
+5	Castoridae	Geomyidae	66.4	72-55
+6	Dipodidae	Muridae	66.0	73-57
+#7	Ctenodactylidae	Hystricidae	64.2	63-54
+8	Gliridae	Sciuridae	62.4	65-50
+9	Sciuridae	Aplodontidae	51.5	59-43
+10	Anomaluridae	Pedetidae	48.3
+11	Hystricidae	Petromuridae	47.8	51-40
+#12	Diatomyidae	Ctenodactylidae	44.3
+13	Bathyergidae	Echimyidae	41.7	47-37
+14	Spalacidae	Muridae	39.0	
+15	Bathyergidae	Petromuridae	38.9	43-33
+16	Dinomyidae	Caviidae	35.3	37-30
+17	Dinomyidae	Echimyidae	32.2	47-24
+18	Erethizontidae	Caviidae	31.7	35-27
+19	Geomyidae	Heteromyidae	28.4	33-22
+20	Dasyproctidae	Caviidae	26.0	30-26
+21	Petromuridae	Thryonomyidae	25.8	43-20
+#22	Agoutidae	Caviidae	25.6	29-24
+23	Nesomyidae	Muridae	25.5	
+24	Cricetidae	Muridae	24.2
+#*25	Capromyidae	Octodontidae	21.3
+#*26	
+27	Dinomyidae	Chinchillidae	20.2	22-16
+28	Octodontidae	Ctenomyidae	17.3	23-17
+29	Capromyidae	Echimyidae	10.7	15-10
+30	Echimyidae	Myocastoridae	7.3	10-7
+
+# From: mammalians_Madsen2009Chap68.pdf
+1	Eutheria	Prototheria	220.2	262-164
+2	Eutheria	Metatheria	176.1	238-146
+
+# From: Carnivores_Eizirik2009Chap79.pdf
+1	Canidae	Felidae	52.9	60-51
+2	Nandiniidae	Viverridae	49.0	54-33
+3	Canidae	Ursidae	44.0
+4	Viverridae	Felidae	41.8	47-29
+5	Ursidae	Phocidae	40.0	
+6	Viverridae	Hyaenidae	39.7	45-28
+7	Phocidae	Ailuridae	38.0	
+8	Felidae	Prionodontinae	37.8	
+#*9	Ailuridae	Mephitidae	35.0
+10	Hyaenidae	Eupleridae	33.8	38-23
+11	Phocidae	Otariidae	30.0
+12	Mustelidae	Procyonidae	28.0
+13	Herpestidae	Eupleridae	28.0	32-18
+14	Otariidae	Odobenidae	22.0
+
+# From: animals_Blair2009Chap24.pdf
+1	Calcarea	Cnidaria	1237
+2	Cnidaria	Annelida	1036
+3	Annelida	Vertebrata	910
+4	Echinodermata	Vertebrata	842
+5	Echinodermata	Hemichordata	795
+6	Annelida	Arthropoda	790
+#*7	Vertebrata	Cephalochordata	774
+8	Arthropoda	Priapulida	728
+#*9	Annelida	Nemertea	698
+#10	Nemertea	Platyhelmintha	666
+
+# From: Vertebrates_Hedges2009Chap39.pdf
+1	Cyclostomatida	Amniota	608
+2	Chondrichthyes	Amniota	527
+3	Actinopterygii	Amniota	455
+#*4	Amniota	Dipnoi	430
+5	Amniota	Amphibia	361
+
+# From: Rhinoceroses_Ryder2009Chap80.pdf
+1	Equidae	Tapiridae	55.1
+2	Tapiridae	Rhinocerotidae	48.6
+
+# From: Whales_Gatesy2009Chap81.pdf
+1	Camelidae	Suidae	67.3
+2	Suidae	Bovidae	63.5
+3	Bovidae	Balaenidae	59.1
+4	Hippopotamidae	Balaenidae	52.9
+5	Tragulidae	Bovidae	46.3
+6	Suidae	Tayassuidae	42.8
+7	Balaenidae	Iniidae	32.3
+8	Antilocapridae	Cervidae	31.6
+9	Physeteridae	Lipotidae	30.0
+10	Giraffidae	Cervidae	29.4
+11	Platanistidae	Lipotidae	28.9
+#12	Hyperoodontidae	Iniidae	28.2
+13	Cervidae	Bovidae	27.8
+14	Balaenidae	Neobalaenidae	27.3
+15	Moschidae	Bovidae	26.2
+16	Lipotidae	Delphinidae	25.0
+#17	Kogiidae	Physeteridae	24.5
+18	Neobalaenidae	Eschrichtiidae	23.3
+19	Lipotidae	Iniidae	21.5
+20	Pontoporiidae	Iniidae	19.9
+21	Delphinidae	Phocoenidae	19.8
+22	Eschrichtiidae	Balaenopteridae	19.3
+23	Monodontidae	Phocoenidae	13.1
+
+# From: Bats_Teeling2009Chap78.pdf
+1	Pteropodidae	Natalidae	62.0
+2	Pteropodidae	Rhinolophidae	57.5
+3	Nycteridae	Natalidae	55.0
+4	Natalidae	Myzopodidae	54.5
+5	Myzopodidae	Mystacinidae	51.9
+6	Nycteridae	Emballonuridae	51.5
+7	Natalidae	Molossidae	50.6
+8	Rhinolophidae	Megadermatidae	50.1
+9	Molossidae	Vespertilionidae	48.1
+10	Rhinopomatidae	Megadermatidae	47.0
+11	Mystacinidae	Furipteridae	45.3
+#12	Miniopteridae	Vespertilionidae	44.0
+13	Craseonycteridae	Megadermatidae	43.0
+14	Furipteridae	Mormoopidae	42.4
+15	Thyropteridae	Furipteridae	40.7
+16	Phyllostomidae	Mormoopidae	37.5
+17	Noctilionidae	Furipteridae	36.6
+
+# From: Hedgehogs_Douady2009Chap77.pdf
+1	Solenodontidae	Soricidae	80.5
+2	Talpidae	Soricidae	74.3
+3	Erinaceidae	Soricidae	66.2
+
+# From: Pikas_Matthee2009Chap75.pdf
+1	Leporidae	Ochotonidae	39.6
+
+# From: Tenrecs_Poux2009Chap73.pdf
+1	Tenrecidae	Chrysochloridae	65.4
+
+# From: Armadillos_Delsuc2009Chap72.pdf
+1	Dasypodidae	Bradypodidae	70.5
+2	Myrmecophagidae	Bradypodidae	60.0
+#3	Cyclopedidae	Myrmecophagidae	39.7
+4	Bradypodidae	Megalonychidae	19.6
+
+
